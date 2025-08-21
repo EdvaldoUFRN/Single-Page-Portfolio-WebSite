@@ -1,0 +1,15 @@
+/*
+  Este arquivo é o ponto de entrada para o Tailwind CSS.
+  Ele importa as diretivas base, de componentes e de utilitários
+  e também define suas classes personalizadas.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* Sua classe customizada para reutilizar estilos. */
+    .cube{
+        @apply bg-white p-4 rounded-lg shadow-md text-center border border-gray-200;
+    }
+}
